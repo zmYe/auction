@@ -15,8 +15,22 @@
 
 如果在github的remote上已经有了文件而且多人開發，本地版本不是最新，會出现错误。此时应当先pull一下（更新代碼），即：
 
-git pull origin master
+git pull origin master  //同步项目 
 
 然后再进行：
 
 git push origin master
+
+
+★★★★★★★☆☆☆☆☆☆☆☆☆☆☆★★★★★★★
+
+上传本地项目 
+
+git init  初始化项目
+
+git remote add origin https://自己的仓库url地址   关联到自已创库
+
+push -u origin master 第一次提交加 U参数
+ 
+
+
