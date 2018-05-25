@@ -35,10 +35,13 @@ push -u origin master 第一次提交加 U参数
 ★★★★★★★☆☆☆☆☆☆☆☆☆☆☆★★★★★★★
 
 查看git设置
+
 git config --list
+
 git config --global --list
 
 git config --global user.email abc@163.com  //设置 user.mail
+
 git config --global https.proxy http://127.0.0.1:1080  //设置代理
 
 config --global --unset http.proxy  取消设置
